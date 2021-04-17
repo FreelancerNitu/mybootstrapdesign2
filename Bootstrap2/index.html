@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f21a1c5e3a.js" crossorigin="anonymous"></script>
+    <title>mBootstrap2</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+    <!-- Header section start here -->
+     <header id="header">
+        <nav class="navbar navbar-expand-md navbar-light bg-primary ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/book.png" alt="logo" style="width: 50px"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                  </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="#">Home</a>
+               </li>
+               <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Link</a>
+               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Facebook</a></li>
+                  <li><a class="dropdown-item" href="#">Youtube</a></li>
+                  <li><a class="dropdown-item" href="#">Instagram</a></li>
+                  <li><a class="dropdown-item" href="#">GitHub</a></li>
+                  <li><a class="dropdown-item" href="#">Google</a></li>
+              </ul>
+               </li>
+               <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Dropdown
+               </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <li><a class="dropdown-item" href="#">Action</a></li>
+                   <li><a class="dropdown-item" href="#">Another action</a></li>
+                   <li><hr class="dropdown-divider"></li>
+                   <li><a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+               </ul>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              
+               </li>
+            </ul>
+         <form class="d-flex">
+           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+           <button class="btn btn-outline-light" type="submit">Search</button>
+         </form>
+       </div>
+     </div>
+    </nav>  
+   </header>
+    <!-- Header section ends here -->
+    
+      <!-- Banner section starts here -->
+        <section id="banner">
+          <div class="banner-container d-flex justify-content-center align-items-center">
+              <div class="banner-contants text-center text-white pt-5 mb-5 font-width-bolder">
+                  <h1 class="title mb-5">Learn Something with me !!!</h1>
+                  <button class="btn btn-lg btn-primary m-3" onclick="location.href='tutorial' "> <i class="fas fa-play mr-3"></i> Tutorials</button>
+                  <button class="btn btn-lg btn-primary m-3" onclick="window.open('http://127.0.0.1:5500/index.html?#')"class="request-callback" > <i class="fab fa-youtube mr-3"></i> Subscribe</button>
+              </div>
+          </div>
+        </section> 
+      <!-- Banner section ends here -->
+
+      <!-- Featers section starts here -->
+
+      <section id="featurs" class="text-center">
+          <div class="row">
+
+            <div class="col-lg-4 d-block d-lg-flex">
+              <div class="fetuars-col">
+                <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                <h5 class="font-weight-bold">Free To Use</h5>
+                <p class="small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores aliquid libero perferendis quae. Ducimus, corporis.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 d-block d-lg-flex">
+              <div class="fetuars-col">
+                <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                <h5 class="font-weight-bold">Free To Use</h5>
+                <p class="small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores aliquid libero perferendis quae. Ducimus, corporis.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 d-block d-lg-flex">
+              <div class="fetuars-col">
+                <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                <h5 class="font-weight-bold">Free To Use</h5>
+                <p class="small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores aliquid</p>
+              </div>
+            </div>
+
+          </div>
+      </section>
+
+      <!-- Featers section ends here -->
+
+      <!-- About section starts here -->
+      <section id="about-me">
+         <div class="section-title text-uppercase" style="font-style: italic;">
+           <h3 class="text-center  ">About Me</h3>
+           <!-- <hr class="hr-style" style="border-color: black;"> -->
+         </div>
+         <div class="row mt-5">
+           <div class="col-lg-5">
+             <div class="dash-desh text-center text-lg-start">
+               <i class="icon-style rounded-circle fas fa-user fa-2x"></i>
+               <h5 class="font-weight-bolder my-3">Personal Info</h5>
+               <p>Name: Na Shree Nitu</p>
+               <p>Current Address: Sunamganj Sader</p>
+               <p>Website: <a href="http://127.0.0.1:5500/index.html" target="blank">www.127.0.0.1:5500/index.html</a></p>
+               <button class="btn btn-primary mt-2">Download Cv</button>
+             </div>
+           </div>
+         </div>
+         <div class="row mt-5">
+           <div class="col-lg-7">
+
+           </div>
+           <div class="col-lg-5">
+             <div class="achive-desh text-center text-lg-start">
+               <i class="icon-style rounded-circle fas fa-trophy fa-2x"></i>
+               <h5 class="font-weight-bolder my-3">Achivements</h5>
+               <p><span>Expert:</span> Html,Css,JavaScript and Bootstrap</p><br>
+               <p><span>Skills:</span> Psd to Html convert,Sound knowledge of adobe photoshop,Responsive websit designing</p>
+             </div>
+           </div>
+         </div>
+         <div class="row mt-5">
+           <div class="col-lg-6">
+             <div class="skill-desh text-center text-lg-start">
+                 <i class="fas fa-briefcase fa-2x icon-style rounded-circle"></i>
+                 <h5 class="font-weight-bolder my-3">Skills</h5>
+                 <table class="text-center">
+                   <tr>
+                     <td>HTML</td>
+                     <td>
+                       <span class="star">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                      </span>
+                     </td>
+                   </tr>
+
+                   <tr>
+                    <td>CSS</td>
+                    <td>
+                      <span class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                     </span>
+                    </td>
+                  </tr>
+                  <tr>
+
+                    <td>JavaScript</td>
+                    <td>
+                      <span class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                     </span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>Bootstrap</td>
+                    <td>
+                      <span class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </span>
+                    </td>
+                  </tr>
+                 </table>
+             </div>
+           </div>
+           <div class="col-lg-7"></div>
+         </div>
+      </section>
+      <!-- About section ends here -->
+
+      <!-- Card section starts here -->
+      <section id="tutorial">
+        <div class="section-title">
+          <h3 class="text-center text-uppercase" style="font-style: italic;">Tutorial</h3>
+          <!-- <hr class="hr-style" style="border-color: black;"> -->
+        </div>
+        <div class="row text-center mb-3 mt-5">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mb-5 m-lg-0">
+              <img class="card-img-top card-img" src="img/f1.jpg" alt="image">
+              <div class="card-body text-center">
+                <h3 class="card-title font-weight-bolder">Beautiful Girl</h3>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mb-5 m-lg-0">
+              <img class="card-img-top card-img" src="img/f2.jpg" alt="image">
+              <div class="card-body text-center">
+                <h3 class="card-title font-weight-bolder">Beautiful Girl</h3>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mb-5 m-lg-0">
+              <img class="card-img-top card-img" src="img/f3.jpg" alt="image">
+              <div class="card-body text-center">
+                <h3 class="card-title font-weight-bolder">Beautiful Girl</h3>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mb-5 m-lg-0">
+              <img class="card-img-top card-img " src="img/f4.jpg" alt="image">
+              <div class="card-body text-center">
+                <h3 class="card-title font-weight-bolder">Beautiful Girl</h3>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center mb-3 mt-5">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mb-5 m-lg-0">
+              <img class="card-img-top card-img" src="img/f5.jpg" alt="image">
+              <div class="card-body text-center">
+                <h3 class="card-title font-weight-bolder">Beautiful Girl</h3>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mb-5 m-lg-0">
+              <img class="card-img-top card-img " src="img/f3.jpg" alt="image">
+              <div class="card-body text-center">
+                <h3 class="card-title font-weight-bolder">Beautiful Girl</h3>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mb-5 m-lg-0">
+              <img class="card-img-top card-img" src="img/f1.jpg" alt="image">
+              <div class="card-body text-center">
+                <h3 class="card-title font-weight-bolder">Beautiful Girl</h3>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mb-5 m-lg-0">
+              <img class="card-img-top card-img" src="img/f4.jpg" alt="image">
+              <div class="card-body text-center">
+                <h3 class="card-title font-weight-bolder">Beautiful Girl</h3>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Card section ends here -->
+
+      <!-- Feedback section starts here -->
+      <!-- Feedback section ends here -->
+
+      <!-- Contace me section starts here -->
+
+       <section id="contact">
+        <div class="section-title">
+          <h3 class="text-center text-uppercase  text-light" style="font-style: italic;">Contact Me</h3>
+          <!-- <hr class="hr-style" style="border-color: black;"> -->
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-12">
+
+            <form action="mailto:shreenitu01@gmail.com" method="POST" enctype="text/plain" class="was-validated">
+               <div class="form-group mb-1">
+                 <label for="fullname">Fullname</label>
+                 <input type="text" class="form-control" name="fullname" required>
+                 <div class="valid-feedback">valid</div>
+                 <div class="invaild-feedback" style="color:white;">Enter your fullname here</div>
+               </div>
+
+               <div class="form-group mb-1">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" name="Email" required>
+                <div class="valid-feedback">valid</div>
+                <div class="invaild-feedback" style="color:white;">Enter your email here</div>
+              </div>
+
+              <div class="form-group mb-1">
+                <label for="message">Message</label>
+                <textarea style="resize: none;" class="form-control" name="" id="" cols="20" rows="4"></textarea>
+              </div> 
+
+              <div class="form-group my-3 text-center">
+               <input type="submit" class="btn btn-primary mr-3" value="Submit"> 
+               <input type="reset" class="btn btn-primary" value="Reset"> 
+              </div> 
+            </form>
+          </div>
+        </div>
+       </section>
+
+      <!-- Contace me section ends here -->
+
+      
+      <!-- Picture section starts here -->
+
+      <section id="picture">
+        <div class="section-title">
+          <h3 class="text-center text-uppercase text-dark" style="font-style: italic;">Picture</h3>
+        </div>
+        <div class="row mt-5" style="overflow: hidden;">
+          <div class="col-lg-3 col-md-6 col-sm-12 g-0">
+            <img class="" style="width: 100%; height: 250px;" src="img/f1.jpg" alt="">
+            <img class="" style="width: 100%; height: 150px;" src="img/f2.jpg" alt="">
+            <img class="" style="width: 100%; height: 250px;" src="img/f3.jpg" alt="">
+           
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 g-0">
+            <img class="" style="width: 100%; height: 200px;" src="img/f3.jpg" alt="">
+            <img class="" style="width: 100%; height: 250px;" src="img/f1.jpg" alt="">
+            <img class="" style="width: 100%; height: 200px;" src="img/f2.jpg" alt="">
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 g-0">
+            <img class="" style="width: 100%; height: 250px;" src="img/f4.jpg" alt="">
+            <img class="" style="width: 100%; height: 150px;" src="img/f5.jpg" alt="">
+            <img class="" style="width: 100%; height: 250px;" src="img/f3.jpg" alt="">
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 g-0">
+            <img class="" style="width: 100%; height: 200px;" src="img/f2.jpg" alt="">
+            <img class="" style="width: 100%; height: 250px;" src="img/f1.jpg" alt="">
+            <img class="" style="width: 100%; height: 200px;" src="img/f4.jpg" alt="">
+          </div>
+        </div>
+      </section>
+      <!-- Picture section ends here -->
+
+      <!-- Footer section starts here -->
+      <footer>
+        <div class="row text-white">
+          <div class="col-lg-6 text-center text-lg-start mb-3 mb-lg-0">
+            <p class="small mb-0 mt-1">&copy; Copyright by Na Shree Nitu</p>
+          </div>
+          <div class="col-lg-6 text-center text-lg-end">
+            <a style="text-decoration: none;" href="#">Home</a>
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+            <a href=""><i class="fab fa-google"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </footer>
+       <!-- Footer section ends  here -->
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
+
